@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "snowpark_tutorial",
+            "account": "vhvckep-twb63523",
+            "username": "SANDRACPUSA",
+            "password": "Junina@23",
+            "database": "HOL_DB",
+            "warehouse": "HOL_WH"
+        }
+    ]
+}
